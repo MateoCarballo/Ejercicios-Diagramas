@@ -5,13 +5,25 @@ public class Main {
     static int longitud =15;
 
     public static void main(String[] args) {
-       displayBorder('*',15);
-       System.out.println("\n");
-       displayBorder(5);
-       System.out.println("\n");
-       displayBorder('A');
-       System.out.println("\n");
-       displayBorder();
+        /*
+        Llamada al primer metodo con dos parametros
+         */
+        displayBorder('*',15);
+        System.out.println("\n");
+       /*
+       Lamada al segundo pasando solo parametro int
+        */
+        displayBorder(5);
+        System.out.println("\n");
+       /*
+       Llamada al tercero solo char
+        */
+        displayBorder('A');
+        System.out.println("\n");
+       /*
+       Sin pasar ningun parametro
+        */
+        displayBorder();
 
     }
 
