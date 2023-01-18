@@ -1,4 +1,3 @@
 
 
-
-[def]: Ejercicios-Diagramas/diagrams/Diagrama1.drawio.svg
+![](Diagrama1.drawio.svg)
